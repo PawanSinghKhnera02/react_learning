@@ -1,11 +1,13 @@
-
+import Pk from "./pk"
 
 function App() {
-  
+  const username = "psk";
 
   return (
     <>
-      <h1>Hello Vite! Pawan Singh Khnera</h1>
+      <h1>Hello Pawan ! {username}</h1>
+      <Pk/>
+      <p>test {username}</p>
     </>
   )
 }
